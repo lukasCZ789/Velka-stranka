@@ -1,4 +1,14 @@
+function showGif() {
+    const gifContainer = document.getElementById('gif-container');
+    gifContainer.style.display = 'block';
+}
+function hideGif() {
+    const gifContainer = document.getElementById('gif-container');
+    gifContainer.style.display = 'none'; // Skrýt GIF
+}
+
 let countdown = document.getElementById("countdown")//do tohodle se uklada text do countdown
+
 
 let seconds = 60//promena
 countdown.innerText = seconds
@@ -9,9 +19,19 @@ const intervalgg = setInterval(function(){//loop
     if(seconds<1){//kdyz sekundy jsou menci nez 1 zastavi se interval
         clearInterval(intervalgg);
         countdown.innerText = ("Bomba vybuchla")//vypise ze bomba vybuchla
+
+        showGif();//ukazat gif
+        setTimeout(() => {
+            hideGif(); // Zastavit GIF (ve skutečnosti skrytí GIF)
+        }, 2200);
         
+
+       
+       
     }
-}, 1000)//cas v milisekundach
+}, 100)//cas v milisekundach
+
+
 
 let odpoved1spravne = false;
 let odpoved2spravne = false;
@@ -82,11 +102,6 @@ odpoved3.addEventListener("change", (event) => {//kontroluje jesli se neco nenap
   });
 
  
-
-
-
-
-
 
 
 
