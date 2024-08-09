@@ -10,7 +10,7 @@ body{
     border: solid 20px   rgb(33, 123, 196);/*okraje a barva okraje*/
     border-radius: 25px;/*zaobleni okraje*/
     display: flex;/*flexibilni*/
-    box-shadow: 15px 15px 15px rgb(3, 19, 255);
+    box-shadow: 15px 15px 15px  rgb(3, 19, 255);
 }
 
 .bigbox{
@@ -76,11 +76,14 @@ text-align: center;/*zarovnani textu doprostred */
 .c4redbox{
     height:45px;/*vyska ctverce*/
     width: 550px;
-    border-radius: 8px;/*zaobleni okraje*/
+    border-radius: 15px;/*zaobleni okraje*/
     background-color: rgb(255, 0, 0);/*barva ctverce*/
     border: solid 2px   rgb(0, 0, 0);/*okraje a barva okraje*/
     display: flex;/*flexibilni*/
     padding: 20px ;/*Ohraniceni*/
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 15px 15px 15px rgb(0, 0, 0);
 
 }
 .c4dis{
@@ -92,4 +95,33 @@ text-align: center;/*zarovnani textu doprostred */
     display: flex;/*flexibilni*/
     padding: 20px ;/*Ohraniceni*/
 
+
+}
+
+#countdown{
+    font-size: 35px;/*velikost textu*/
+    color:rgb(57, 197, 39);/*barva textu*/
+    padding: 5px;/*Ohraniceni*/
+    margin-top: 5px;
+  
+
+
+}
+#o1{
+    font-size: 25px;/*velikost textu*/
+    border-radius: 10px;/*zaobleni okraje*/
+    box-shadow: 15px 15px 15px rgb(0, 0, 0);
+}
+
+#o2{
+    font-size: 25px;/*velikost textu*/
+    border-radius: 10px;/*zaobleni okraje*/
+    box-shadow: 15px 15px 15px rgb(0, 0, 0);
+}
+
+#o3{
+    font-size: 25px;/*velikost textu*/
+    border-radius: 10px;/*zaobleni okraje*/
+    box-shadow: 15px 15px 15px rgb(0, 0, 0);
+    
 }
