@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(36, 37, 35);/*zmena barvy pozadi-*/
+}
+
+.boxnahore{
+    
+    height: auto;/*vyska ctverce*/
+    background-color: rgb(41, 32, 167);/*barva ctverce*/
+    
+    border: solid 20px   rgb(33, 123, 196);/*okraje a barva okraje*/
+    border-radius: 25px;/*zaobleni okraje*/
+    display: flex;/*flexibilni*/
+    box-shadow: 15px 15px 15px rgb(3, 19, 255);
+}
+
+.bigbox{
+    height:500px;/*vyska ctverce*/
+    border-radius: 25px;/*zaobleni okraje*/
+    background-color: rgb(33, 123, 196);/*barva ctverce*/
+    margin-top: 30px;/*odsazeni ctverce*/
+    display: flex;/*flexibilni*/
+    padding: 20px ;/*Ohraniceni*/
+    box-shadow: 15px 15px 15px rgb(3, 19, 255);
+}
+.bigbox1{
+    height:auto;/*vyska ctverce*/
+    border-radius: 25px;/*zaobleni okraje*/
+    background-color: rgb(33, 123, 196);/*barva ctverce*/
+    margin-top: 30px;/*odsazeni ctverce*/
+    padding: 20px;/*Ohraniceni*/
+    box-shadow: 15px 15px 15px rgb(3, 19, 255);
+    
+}
+.bigboxgg{
+    height:1000px;/*vyska ctverce*/
+    
+    background-color: rgb(36, 37, 35);/*barva ctverce*/
+    margin-top: 30px;/*odsazeni ctverce*/
+    
+}
+.endbox{
+    height:50px;/*vyska ctverce*/
+    border-radius: 10px;/*zaobleni okraje*/
+    background-color: rgb(33, 123, 196);/*barva ctverce*/
+    margin-top: 30px;/*odsazeni ctverce*/
+
+}
+.text1{
+    color: white;/*barva textu*/
+    padding: 25px;/*mezera kolem textu*/
+    
+
+}
+.text2{
+color:white;/*barva textu*/
+text-align: center;/*zarovnani textu doprostred */
+
+}
+.text3{
+    color:white;/*barva textu*/
+    text-align: center;/*zarovnani textu doprostred */
+    font-size: 25px;
+}
+    
+.text4{
+    color:white;/*barva textu*/
+    text-align: left;/*zarovnani textu doprostred */
+    font-size: 25px;
+    padding: 25px;
+}
+
+.size{
+    font-size: 45px;/*velikost textu*/
+}
+
+.c4redbox{
+    height:45px;/*vyska ctverce*/
+    width: 550px;
+    border-radius: 8px;/*zaobleni okraje*/
+    background-color: rgb(255, 0, 0);/*barva ctverce*/
+    border: solid 2px   rgb(0, 0, 0);/*okraje a barva okraje*/
+    display: flex;/*flexibilni*/
+    padding: 20px ;/*Ohraniceni*/
+
+}
+.c4dis{
+    height:100px;/*vyska ctverce*/
+    width: 300px;
+    border-radius: 8px;/*zaobleni okraje*/
+    background-color: rgb(75, 66, 66);/*barva ctverce*/
+    border: solid 2px   rgb(0, 0, 0);/*okraje a barva okraje*/
+    display: flex;/*flexibilni*/
+    padding: 20px ;/*Ohraniceni*/
+
+}
