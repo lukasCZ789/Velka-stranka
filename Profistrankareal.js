@@ -10,7 +10,7 @@ function hideGif() {
 let countdown = document.getElementById("countdown")//do tohodle se uklada text do countdown
 
 
-let seconds = 60//promena
+let seconds = 200//promena
 countdown.innerText = seconds
 
 const intervalgg = setInterval(function(){//loop
@@ -29,7 +29,7 @@ const intervalgg = setInterval(function(){//loop
        
        
     }
-}, 100)//cas v milisekundach
+}, 1000)//cas v milisekundach
 
 
 
@@ -42,7 +42,7 @@ var odpoved1 = document.getElementById('o1');//id elementu s kterym budeme praco
 
 odpoved1.addEventListener("change", (event) => {//kontroluje jesli se neco nenapsalo do ramecku
    
-    if(odpoved1.value == "ahoj"){//sem dame spravnou odpoved
+    if(odpoved1.value == "31,5cm2"){//sem dame spravnou odpoved
         odpoved1.style.backgroundColor = "green"//zmena barvy podle spravnosti odpovedi
         odpoved1spravne = true;//kdyz je odpovet spravne ymeni se na true
 
@@ -63,7 +63,7 @@ odpoved1.addEventListener("change", (event) => {//kontroluje jesli se neco nenap
 
 odpoved2.addEventListener("change", (event) => {//kontroluje jesli se neco nenapsalo do ramecku
    
-    if(odpoved2.value == "ahoj"){//sem dame spravnou odpoved
+    if(odpoved2.value == "Arpanet"){//sem dame spravnou odpoved
         odpoved2.style.backgroundColor = "green"//zmena barvy podle spravnosti odpovedi
         odpoved2spravne = true;//kdyz je odpovet spravne ymeni se na true
 
@@ -84,7 +84,7 @@ odpoved2.addEventListener("change", (event) => {//kontroluje jesli se neco nenap
 
 odpoved3.addEventListener("change", (event) => {//kontroluje jesli se neco nenapsalo do ramecku
    
-    if(odpoved3.value == "ahoj"){//sem dame spravnou odpoved
+    if(odpoved3.value == "8"){//sem dame spravnou odpoved
         odpoved3.style.backgroundColor = "green"//zmena barvy podle spravnosti odpovedi
         odpoved3spravne = true;//kdyz je odpovet spravne ymeni se na true
 
