@@ -10,7 +10,7 @@ function hideGif() {
 let countdown = document.getElementById("countdown")//do tohodle se uklada text do countdown
 
 
-let seconds = 200//promena
+let seconds = 20//promena
 countdown.innerText = seconds
 
 const intervalgg = setInterval(function(){//loop
@@ -29,7 +29,7 @@ const intervalgg = setInterval(function(){//loop
        
        
     }
-}, 100)//cas v milisekundach
+}, 1000)//cas v milisekundach
 
 
 
