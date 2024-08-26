@@ -45,6 +45,13 @@ odpoved1.addEventListener("change", (event) => {//kontroluje jesli se neco nenap
     if(odpoved1.value == "31,5cm2"){//sem dame spravnou odpoved
         odpoved1.style.backgroundColor = "green"//zmena barvy podle spravnosti odpovedi
         odpoved1spravne = true;//kdyz je odpovet spravne ymeni se na true
+        
+           if(odpoved1spravne == true, odpoved2spravne == true, odpoved3spravne == true){
+            clearInterval(intervalgg);
+            countdown.innerText = ("Výborně zachránil jsi stranku :D")//vypise stranka zachranena
+
+        }
+        
 
     }
     else{
@@ -66,6 +73,14 @@ odpoved2.addEventListener("change", (event) => {//kontroluje jesli se neco nenap
     if(odpoved2.value == "Arpanet"){//sem dame spravnou odpoved
         odpoved2.style.backgroundColor = "green"//zmena barvy podle spravnosti odpovedi
         odpoved2spravne = true;//kdyz je odpovet spravne ymeni se na true
+
+        if(odpoved1spravne == true, odpoved2spravne == true, odpoved3spravne == true){
+            clearInterval(intervalgg);
+            countdown.innerText = ("Výborně zachránil jsi stranku :D")//vypise stranka zachranena
+
+        }
+        
+
 
     }
     else{
