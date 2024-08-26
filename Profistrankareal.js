@@ -29,7 +29,7 @@ const intervalgg = setInterval(function(){//loop
        
        
     }
-}, 1000)//cas v milisekundach
+}, 100)//cas v milisekundach
 
 
 
